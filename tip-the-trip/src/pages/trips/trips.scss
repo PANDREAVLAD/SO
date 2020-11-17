@@ -1,0 +1,26 @@
+page-trips,
+.trips {
+	.card {
+    border-radius: 1rem;
+    position: relative;
+    text-align: center;
+  }
+  .card-title {
+    position: absolute;
+    top: 38%;
+    font-size: 1.64em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+  .trip {
+    overflow: hidden;
+    .background {
+      background-size: 100% auto;
+      background-position: center;
+      .background-filter {
+        height: 16rem;
+      }
+    }
+  }
+}

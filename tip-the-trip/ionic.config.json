@@ -1,0 +1,7 @@
+{
+  "name": "tip-the-trip",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

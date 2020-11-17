@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar  color="primary">
+    <ion-title>
+      <span ion-text>{{ trip.name }}</span>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="common-bg">
+  <ion-slides class="to-top" pager>
+    <ion-slide *ngFor="let image of trip.images">
+      <img [src]="image" alt="">
+    </ion-slide>
+  </ion-slides>
+

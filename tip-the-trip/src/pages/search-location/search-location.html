@@ -1,0 +1,14 @@
+<!-- # -->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-input placeholder="Selectati Destinatia" padding-left autofocus></ion-input>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="list-no-border">
+    <ion-item *ngFor="let item of places.nearby" tappable (click)="searchBy(item)">
+      <span ion-text color="primary">{{ item.name }}</span>
+    </ion-item>
+    </div>
+</ion-content>

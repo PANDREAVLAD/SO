@@ -1,0 +1,13 @@
+{
+  "name": "tip-the-trip",
+  "short_name": "t-t-t",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "assets/img/logo.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#0039a2",
+  "theme_color": "#0039a2"
+}

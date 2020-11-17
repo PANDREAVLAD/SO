@@ -1,0 +1,48 @@
+<ion-content class="auth-page">
+  <div class="login-content">
+
+    <!-- Logo -->
+    <div padding text-center>
+      <div class="logo"></div>
+    </div>
+
+    <!-- Login form -->
+    <form class="list-form">
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="person" item-start class="text-primary"></ion-icon>
+          Nume
+        </ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="mail" item-start class="text-primary"></ion-icon>
+          Adresa de email
+        </ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>
+          <ion-icon name="lock" item-start class="text-primary"></ion-icon>
+          Parola
+        </ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </form>
+
+    <div margin-top>
+      <button ion-button icon-start block color="dark" tappable (click)="register()">
+        <ion-icon name="hammer"></ion-icon>
+        INREGISTRARE
+      </button>
+    </div>
+
+    <!-- Login -->
+    <div text-center margin-top>
+      <font size="4"><span ion-text color="primary" tappable (click)="login() "><b>Am un cont</b></span></font>
+    </div>
+  </div>
+</ion-content>

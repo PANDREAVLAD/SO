@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      <b>Tip The Trip</b>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="animated fadeIn common-bg">
+  <br><br><br><br>
+  <ion-col>
+    <p style="text-align:center"><b><font size="5">Introduceti destinatia si data plecarii:</font></b></p>
+  </ion-col>
+  <br><br>
+  <ion-card no-margin margin-bottom class="full-width">
+    <ion-item tappable (click)="choosePlace('from')" class="border-bottom">
+      <span>{{ search.name }}</span>
+    </ion-item>
+  </ion-card>
+  <button ion-button icon-start block no-margin color="primary" class="round" tappable (click)="doSearch()">
+    <p>Cautare</p>
+  </button>
+</ion-content>
